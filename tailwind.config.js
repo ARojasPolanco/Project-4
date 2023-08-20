@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'Nunito': ['Nunito', 'sans-serif']
+    },
     colors: {
       'primary-100': '#5DA399',
       'primary-200': '#40867d',
@@ -27,6 +30,10 @@ export default {
       'dark-100': '#1E1E1E',
       'dark-200': '#2d2d2d',
       'dark-300': '#454545',
+      'dark-blue': '#0F0F2D',
+      'light-purple': '#555A88',
+      'salmon': '#D85D5D',
+      'very-dark-blue': '#0F0F2D'
     }
   },
   plugins: [],
