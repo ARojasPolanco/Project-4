@@ -4,7 +4,7 @@ const UserCard = ({
     handleUpdateUser
 }) => {
     return (
-        <section className="grid w-[300px] gap-4 p-4 shadow-lg min-[550px]:w-[250px]">
+        <section className="grid w-[300px] gap-4 p-4 shadow-lg min-[550px]:w-[250px] bg-light-100/60">
             <article className="grid gap-1">
                 <h2 className="capitalize text-very-dark-blue text-xl line-clamp-1">
                     {user.first_name} {user.last_name}

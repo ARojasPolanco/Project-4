@@ -49,7 +49,7 @@ const UserForm = ({
                 X
             </button>
             <h2 className="text-center text-2xl font-bold">
-                {isUpdateUser ? "Edit user" : "Create new user"}
+                {isUpdateUser ? "Edit an existing user" : "Create new user"}
             </h2>
             <div className="flex flex-col gap-2">
                 <label htmlFor="">First Name</label>

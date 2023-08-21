@@ -1,11 +1,11 @@
 export const userError = {
     pattern: {
         value: /[a-zA-Z]/,
-        message: 'please type only letters (a-z, A-Z)'
+        message: 'Please type only letters (a-z, A-Z)'
     },
     minLength: {
         value: 3,
-        message: 'min 3 characters'
+        message: 'Minimum 3 characters'
     }
 }
 
@@ -13,17 +13,17 @@ export const userError = {
 export const emailError = {
     pattern: {
         value: /\S+@\S+.\S+/,
-        message: 'wrong mail format'
+        message: 'Wrong email format'
     }
 }
 
 export const paswwordError = {
     minLength: {
         value: 8,
-        message: 'min 8 characters'
+        message: 'Minium 8 characters'
     },
     maxLength: {
         value: 16,
-        message: 'max 16 characters'
+        message: 'Maximum 16 characters'
     }
 }
