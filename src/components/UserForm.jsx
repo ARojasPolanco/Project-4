@@ -9,8 +9,7 @@ const UserForm = ({
     setIsShowModalCreateUser,
     setIsShowModalUpdateUser,
     setConfirmUpdateUser,
-    setIsUpdateUser,
-    setIsCreateEmptyError
+    setIsUpdateUser
 }) => {
     const {
         handleSubmit,
@@ -44,7 +43,6 @@ const UserForm = ({
                     setIsShowModalCreateUser(false);
                     setIsShowModalUpdateUser(false);
                     setIsUpdateUser(null)
-                    setIsCreateEmptyError(false)
                 }}
             >
                 X
