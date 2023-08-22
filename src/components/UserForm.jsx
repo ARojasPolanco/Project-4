@@ -38,6 +38,7 @@ const UserForm = ({
             onSubmit={handleSubmit(submit)}
         >
             <button
+                type="button"
                 className="flex absolute bg-accent-100 text-dark-100 font-bold h-6 aspect-square rounded-full justify-center items-center right-2 top-2"
                 onClick={() => {
                     setIsShowModalCreateUser(false);
